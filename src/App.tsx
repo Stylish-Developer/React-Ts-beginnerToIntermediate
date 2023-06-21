@@ -1,10 +1,22 @@
 import './App.css';
+import AdvanceProps from './components/advance-props';
+import BasicProps from './components/basic-props';
+import EventProps from './components/event-props';
+import StyleProps from './components/style-props';
+import TypingProps from './components/typing-props';
 
 // -- ROOT COMPONENT
 const App = () => {
   return (
     <>
-      <h1>Welcome to react typescript</h1>
+      <div className='container'>
+        <h1 className='title'>Welcome to react typescript</h1>
+        <TypingProps />
+        <BasicProps />
+        <AdvanceProps />
+        <EventProps />
+        <StyleProps />
+      </div>
     </>
   )
 }
