@@ -45,7 +45,7 @@ const UseReducerHook = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   return (
     <>
-      <h3>useReducer Hook Effect</h3>
+      <h3>useReducer Hook types</h3>
       <h3>COUNT - {state.count} </h3>
       <div>
         <button onClick={() => dispatch({ type: "INCREMENT", payload: 5 })}>
