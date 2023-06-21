@@ -1,6 +1,7 @@
 import UseReducerHook from "./Usereducer";
 import UsestateHook from "./Usestate";
 import UsecontextHook from "./usecontext";
+import UseRefHook from "./useref";
 
 
 // -- Hooks Types
@@ -11,6 +12,7 @@ const HooksTypes = () => {
       <UsestateHook />
       <UseReducerHook />
       <UsecontextHook />
+      <UseRefHook />
     </>
   );
 };
