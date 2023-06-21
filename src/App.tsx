@@ -2,6 +2,7 @@ import './App.css';
 import AdvanceProps from './components/advance-props';
 import BasicProps from './components/basic-props';
 import EventProps from './components/event-props';
+import StyleProps from './components/style-props';
 import TypingProps from './components/typing-props';
 
 // -- ROOT COMPONENT
@@ -14,6 +15,7 @@ const App = () => {
         <BasicProps />
         <AdvanceProps />
         <EventProps />
+        <StyleProps />
       </div>
     </>
   )
