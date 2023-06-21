@@ -1,12 +1,8 @@
-import { ReactNode } from "react";
+import { ChildrenAsComponentProps } from "./propsTypes";
 
-// -- Types
-interface Props {
-    children: ReactNode;
-}
-const AdvancePropsType = (props: Props) => {
-    const { children } = props;
-    return <>{children}</>;
+const AdvancePropsType = (props: ChildrenAsComponentProps) => {
+  const { children } = props;
+  return <>{children}</>;
 };
 
 export default AdvancePropsType;

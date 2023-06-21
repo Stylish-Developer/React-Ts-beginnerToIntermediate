@@ -1,19 +1,6 @@
-// -- Types
-interface Props {
-  notification: number;
-  isLoggedIn: boolean | null;
-  name: { firstName: string; lastName: string };
-  names: { name: string; age: number }[];
-}
+import { BasicTypesProps, StyleProps } from "./PropsTypes";
 
-interface styleProps {
-  display: string;
-  justifyContent: string;
-  alignItems: string;
-  height: string;
-}
-
-const BasicTypeProps = (props: Props) => {
+const BasicTypeProps = (props: BasicTypesProps) => {
   const {
     notification = 0,
     isLoggedIn,
@@ -21,7 +8,7 @@ const BasicTypeProps = (props: Props) => {
     names,
   } = props;
 
-  const style: styleProps = {
+  const style: StyleProps = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
