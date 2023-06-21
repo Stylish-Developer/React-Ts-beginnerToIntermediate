@@ -10,7 +10,7 @@ const CssStyleProps = (props: Props) => {
   const { styles } = props;
   return (
     <>
-      <div style={styles}>// content goes here ...</div>
+      <div style={styles}> content goes here ...</div>
     </>
   );
 };

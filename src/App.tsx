@@ -2,6 +2,7 @@ import './App.css';
 import AdvanceProps from './components/advance-props';
 import BasicProps from './components/basic-props';
 import EventProps from './components/event-props';
+import HooksTypes from './components/hooks-types';
 import StyleProps from './components/style-props';
 import TypingProps from './components/typing-props';
 
@@ -16,6 +17,7 @@ const App = () => {
         <AdvanceProps />
         <EventProps />
         <StyleProps />
+        <HooksTypes />
       </div>
     </>
   )
