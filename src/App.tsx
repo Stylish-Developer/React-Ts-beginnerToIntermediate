@@ -6,6 +6,7 @@ import Auth from "./components/class-component/auth";
 import EventProps from "./components/event-props";
 import Generic from "./components/generic-props";
 import HooksTypes from "./components/hooks-types";
+import Polymorphic from "./components/polymorphic-concept";
 import RestrictProps from "./components/restrict-props";
 import StyleProps from "./components/style-props";
 import TempExclude from "./components/temp-exclude";
@@ -30,6 +31,7 @@ const App = () => {
         <RestrictProps />
         <TempExclude />
         <WrappingHtml />
+        <Polymorphic />
       </div>
     </>
   );
