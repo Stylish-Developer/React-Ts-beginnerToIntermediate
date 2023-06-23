@@ -44,3 +44,28 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+---
+
+## note:
+
+Hey Guys! i'm going to give some tips to you. this is very important and very useful to you all when you are all work with proptypes
+There are 3 points
+1 destructuring
+2 import and export types
+3 reusing types
+
+1 point
+Destructuring we are using from this series so no further steps
+
+2 point
+we can import and export types / interface as like a react compoent import and export
+refer: advance-props folder
+
+3 point
+we can reuse the types
+refer: basic props
+
+you want to see the example code and op . you can see with this commit
+
+- thank you
