@@ -10,6 +10,7 @@ import RestrictProps from "./components/restrict-props";
 import StyleProps from "./components/style-props";
 import TempExclude from "./components/temp-exclude";
 import TypingProps from "./components/typing-props";
+import WrappingHtml from "./components/wrapping-html";
 
 // -- ROOT COMPONENT
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
         <Generic />
         <RestrictProps />
         <TempExclude />
+        <WrappingHtml />
       </div>
     </>
   );
