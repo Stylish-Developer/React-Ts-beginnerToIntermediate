@@ -4,6 +4,7 @@ import BasicProps from './components/basic-props';
 import ClassComponent from './components/class-component';
 import Auth from './components/class-component/auth';
 import EventProps from './components/event-props';
+import Generic from './components/generic-props';
 import HooksTypes from './components/hooks-types';
 import StyleProps from './components/style-props';
 import TypingProps from './components/typing-props';
@@ -22,6 +23,7 @@ const App = () => {
         <HooksTypes />
         <ClassComponent />
         <Auth />
+        <Generic />
       </div>
     </>
   )
