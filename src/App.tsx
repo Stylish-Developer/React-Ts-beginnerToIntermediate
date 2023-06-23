@@ -8,6 +8,7 @@ import Generic from "./components/generic-props";
 import HooksTypes from "./components/hooks-types";
 import RestrictProps from "./components/restrict-props";
 import StyleProps from "./components/style-props";
+import TempExclude from "./components/temp-exclude";
 import TypingProps from "./components/typing-props";
 
 // -- ROOT COMPONENT
@@ -26,6 +27,7 @@ const App = () => {
         <Auth />
         <Generic />
         <RestrictProps />
+        <TempExclude />
       </div>
     </>
   );
